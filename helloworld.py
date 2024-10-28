@@ -3,10 +3,11 @@
 
 # This creates an instance of the Robobo class with the indicated IP address
 # You have to modify next line
-from robobo.Robobo import Robobo
-from robobo_video.robobo_video import RoboboVideo
-rob = Robobo("10.113.36.150")
-video = RoboboVideo()
+from robobopy.Robobo import Robobo
+from robobopy_videostream.RoboboVideo import RoboboVideo
+
+rob = Robobo("192.168.1.112")
+video = RoboboVideo("192.168.1.112")
 # This connects to the robobo base
 rob.connect()
 

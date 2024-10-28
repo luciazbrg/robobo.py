@@ -2,8 +2,8 @@ from robobopy_videostream.RoboboVideo import RoboboVideo
 from robobopy.Robobo import Robobo
 import cv2
 
-videoStream = RoboboVideo("192.168.1.58")
-rob = Robobo("192.168.1.58")
+videoStream = RoboboVideo("192.168.1.112")
+rob = Robobo("192.168.1.112")
 rob.connect()
 rob.startStream()
 def main():
